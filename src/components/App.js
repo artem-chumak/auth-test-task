@@ -26,25 +26,28 @@ function App() {
           </form>
         </div>
 
-        <div>
-          <span>New password was sent</span>
-          <img src="" alt="exit icon" />
+        <div className="greenallert">
+          <p className="allert_text">New password was sent</p>
+          <button className="greenallert_exit"></button>
         </div>
 
-        <div>
-          <form action=""></form>
-        </div>
+        <div className="forgot_box">
+          <form className="forgot_form" action="#" name="forgot">
+            <label className="lable" forhtml="forgot_email">Email address</label>
+            <input className="forgot_input" type="email" name="forgot_email" id="forgot_email" required />
+            <button className="signin_btn" type="submit" aria-label="Send new password">Send new password</button>
+          </form>
+          </div>
 
-        <div>
+        <div className="prospect">
           <span>
-            New to App? <span>Creat an account.</span>
+            New to App? <span className="prospect_link">Creat an account.</span>
           </span>
-          <img src="" alt="exit icon" />
         </div>
       </main>
 
-      <footer>
-        <span></span>
+      <footer className="footer">
+        <span className="author">Artem Chumak 2021</span>
       </footer>
     </>
   );
