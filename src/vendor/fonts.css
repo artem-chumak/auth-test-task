@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local ('Josefin Sans'), url('../vendor/fonts/JosefinSans-Light.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../vendor/fonts/JosefinSans-Regular.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../vendor/fonts/Montserrat-Medium.ttf') format('truetype'),
+}

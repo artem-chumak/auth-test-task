@@ -1,0 +1,102 @@
+:root {
+
+  --color-bg: #0D1117;
+  --color-text-main: #C9D1D9;
+  --color-text-second: #8B949E;
+  --color-text-link: #5596F1;
+
+  --color-text-btn: #FFFFFF;
+  --color-btn: #238636;
+  --color-stroke-btn: #38914B;
+  --color-btn-hover: #2EA043;
+
+  --color-bg-mainbox: #161B22;
+  --color-stroke-mainbox: #29303B;
+  --color-bg-input-mainbox: #0D1117; /*repeat*/
+  --color-stroke-input-mainbox: #29303B; /*repeat*/
+  --color-stroke-inpit-mainbox-hover: #1752B0;
+
+  --color-bg-alertbox: #301A1F;
+  --color-stroke-alertbox: #7F302F;
+
+  --color-bg-greenbox: #1A301A;
+  --color-stroke-greenbox: #2F7F2F;
+  --color-bg-input-greenbox:#0D1117; /*repeat*/
+  --color-stroke-input-greenbox: #293B29;
+  --color-stroke-input-greenbox-hover: #15A315;
+
+  --width-box: 320px;
+  --width-input-btn: 266px;
+  --gap-box: 16px;
+
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: 'Josefin Sans', Arial, sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  box-sizing: border-box;
+  padding: 40px 0 0 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.main {
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+
+.title {
+  font-family: 'Josefin Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: -1px;
+  display: block;
+  max-width: var(--width-box);
+  margin: 0 auto 20px;
+  line-height: 1.2;
+}
+
+.redallert {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  width: var(--width-box);
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-bg-alertbox);
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 1.2;
+  border: solid 1px var(--color-stroke-alertbox);
+  align-items: center;
+}
+
+.allert_text {
+  max-width: 234px;
+  margin: 0;
+}
+
+.allert_exit {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  background-image: url(../images/redallert_exit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.allert_exit:hover {
+  opacity: 0.6;
+  transition: 0.2s ease-in;
+}
