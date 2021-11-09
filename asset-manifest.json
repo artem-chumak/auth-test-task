@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/auth-test-task/static/css/main.f778eff4.chunk.css",
-    "main.js": "/auth-test-task/static/js/main.d86628d7.chunk.js",
-    "main.js.map": "/auth-test-task/static/js/main.d86628d7.chunk.js.map",
+    "main.css": "/auth-test-task/static/css/main.27c1b772.chunk.css",
+    "main.js": "/auth-test-task/static/js/main.f06d46bd.chunk.js",
+    "main.js.map": "/auth-test-task/static/js/main.f06d46bd.chunk.js.map",
     "runtime-main.js": "/auth-test-task/static/js/runtime-main.017fa57c.js",
     "runtime-main.js.map": "/auth-test-task/static/js/runtime-main.017fa57c.js.map",
     "static/js/2.0b7d99fc.chunk.js": "/auth-test-task/static/js/2.0b7d99fc.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.209eed84.chunk.js": "/auth-test-task/static/js/3.209eed84.chunk.js",
     "static/js/3.209eed84.chunk.js.map": "/auth-test-task/static/js/3.209eed84.chunk.js.map",
     "index.html": "/auth-test-task/index.html",
-    "static/css/main.f778eff4.chunk.css.map": "/auth-test-task/static/css/main.f778eff4.chunk.css.map",
+    "static/css/main.27c1b772.chunk.css.map": "/auth-test-task/static/css/main.27c1b772.chunk.css.map",
     "static/js/2.0b7d99fc.chunk.js.LICENSE.txt": "/auth-test-task/static/js/2.0b7d99fc.chunk.js.LICENSE.txt",
     "static/media/index.css": "/auth-test-task/static/media/Montserrat-Medium.e2d60bc4.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.017fa57c.js",
     "static/js/2.0b7d99fc.chunk.js",
-    "static/css/main.f778eff4.chunk.css",
-    "static/js/main.d86628d7.chunk.js"
+    "static/css/main.27c1b772.chunk.css",
+    "static/js/main.f06d46bd.chunk.js"
   ]
 }
