@@ -39,6 +39,10 @@ function App() {
     setPasswordForgotten(false);
     setPasswordSent(true);
     e.target.reset();
+    setData({
+      email: "",
+      password: "",
+    })
   };
 
   const handleLogin = (email, password) => {
