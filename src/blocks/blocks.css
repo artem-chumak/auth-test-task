@@ -1,49 +1,47 @@
 :root {
+  --color-bg: #0d1117;
+  --color-text-main: #c9d1d9;
+  --color-text-second: #8b949e;
+  --color-text-link: #5596f1;
 
-  --color-bg: #0D1117;
-  --color-text-main: #C9D1D9;
-  --color-text-second: #8B949E;
-  --color-text-link: #5596F1;
-
-  --color-text-btn: #FFFFFF;
+  --color-text-btn: #ffffff;
   --color-btn: #238636;
-  --color-stroke-btn: #38914B;
-  --color-btn-hover: #2EA043;
+  --color-stroke-btn: #38914b;
+  --color-btn-hover: #2ea043;
 
-  --color-bg-mainbox: #161B22;
-  --color-stroke-mainbox: #29303B;
-  --color-bg-input-mainbox: #0D1117; /*repeat*/
-  --color-stroke-input-mainbox: #29303B; /*repeat*/
-  --color-stroke-inpit-mainbox-hover: #1752B0;
+  --color-bg-mainbox: #161b22;
+  --color-stroke-mainbox: #29303b;
+  --color-bg-input-mainbox: #0d1117; /*repeat*/
+  --color-stroke-input-mainbox: #29303b; /*repeat*/
+  --color-stroke-inpit-mainbox-hover: #1752b0;
 
-  --color-bg-alertbox: #301A1F;
-  --color-stroke-alertbox: #7F302F;
+  --color-bg-alertbox: #301a1f;
+  --color-stroke-alertbox: #7f302f;
 
-  --color-bg-greenbox: #1A301A;
-  --color-stroke-greenbox: #2F7F2F;
-  --color-bg-input-greenbox:#0D1117; /*repeat*/
-  --color-stroke-input-greenbox: #293B29;
-  --color-stroke-input-greenbox-hover: #15A315;
+  --color-bg-greenbox: #1a301a;
+  --color-stroke-greenbox: #2f7f2f;
+  --color-bg-input-greenbox: #0d1117; /*repeat*/
+  --color-stroke-input-greenbox: #293b29;
+  --color-stroke-input-greenbox-hover: #15a315;
 
   --width-box: 320px;
   --width-input-btn: 266px;
   --height-input-btn: 32px;
   --gap-box: 16px;
-
 }
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
-    -webkit-box-shadow: 0 0 0 30px var(--color-bg) inset;
-    -webkit-text-fill-color: var(--color-text-main);
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--color-bg) inset;
+  -webkit-text-fill-color: var(--color-text-main);
 }
 
 html {
   background: var(--color-bg);
   color: var(--color-text-main);
-  font-family: 'Josefin Sans', Arial, sans-serif;
+  font-family: "Josefin Sans", Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -63,7 +61,7 @@ html {
 }
 
 .title {
-  font-family: 'Josefin Sans', Arial, sans-serif;
+  font-family: "Josefin Sans", Arial, sans-serif;
   font-weight: 300;
   font-size: 28px;
   text-align: center;
@@ -143,7 +141,7 @@ html {
   border: solid 1px var(--color-stroke-input-mainbox);
   margin-bottom: 18px;
   color: var(--color-text-main);
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   box-sizing: border-box;
@@ -182,7 +180,7 @@ html {
   color: var(--color-text-btn);
   height: var(--height-input-btn);
   cursor: pointer;
-  border: solid 1px var(--color-stroke-btn)
+  border: solid 1px var(--color-stroke-btn);
 }
 
 .signin_btn:hover {
@@ -249,7 +247,7 @@ html {
   border: solid 1px var(--color-stroke-input-greenbox);
   margin-bottom: 18px;
   color: var(--color-text-main);
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   box-sizing: border-box;
