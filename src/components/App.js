@@ -44,6 +44,11 @@ function App() {
   const handleLogin = (email, password) => {
     if (email !== user.email || password !== user.password) {
       setUserWrong(true);
+    } else {
+      setData({
+        email: "",
+        password: "",
+      })
     }
   };
 
