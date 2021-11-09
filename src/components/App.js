@@ -13,8 +13,17 @@ function App() {
           <p className="allert_text">Incorrect username or password.</p>
           <button className="allert_exit"></button>
         </div>
-        <div>
-          <form action=""></form>
+        <div className="signin_box">
+          <form className="signin_form" action="#" name="signin">
+            <label className="lable" forhtml="email">Email address</label>
+            <input className="input" type="email" name="email" id="email" required />
+            <div className="lable_box">
+              <label className="lable" forhtml="password">Password</label>
+              <span className="link">Forgot password?</span>
+            </div>
+            <input className="input" type="password" name="password" id="password" required />
+            <button className="signin_btn" type="submit" aria-label="Sign in">Sign in</button>
+          </form>
         </div>
 
         <div>
